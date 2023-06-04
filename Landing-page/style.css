@@ -1,0 +1,396 @@
+body{
+padding: 0;
+margin: 0;
+font-family: 'Gotham', 'HelveticaNeue', 'Helvetica Neue', Roboto, Arial, sans-serif;
+}
+
+#first-block{
+background-image: url(./Images/santa-monica-proper-hotel-bed.jpg);
+color: white;
+text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+width: 100%;
+}
+
+#brand-navbar{
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+
+#brand-logo{
+font-size: 40px;
+padding-left: 10px;
+margin: 5px;
+}
+
+#login-status ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+}
+
+#login-status ul li{
+padding: 0 10px;
+font-size: 16px;
+font-weight: 400;
+}
+
+#title{
+text-align: center;
+font-size: 55px;
+font-family: 'Gotham', 'HelveticaNeue', 'Helvetica Neue', Roboto, Arial, sans-serif;;
+font-weight: 700;
+margin: 5% 15% 0 15%;
+
+}
+
+#sub-title{
+margin: 30px 20% 30px 20%;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 2px;
+}
+
+#form{
+display: flex;
+margin: 0 10%;
+justify-content: space-around ;
+}
+
+.text-column{
+background-color: white;
+width: 35%;
+height: 40px;
+flex-direction: column;
+padding-left: 10px;
+}
+
+.text-column .label{
+color: black;
+font-size: 12px;
+margin-top: 5px;
+}
+.text-column input{
+border: none;
+width: 90%;
+font-size: 16px;
+font-weight: 500;
+}
+
+.search-button button{
+background-color: purple;
+text-align: center;
+width: 100px;
+height: 40px;
+border: none;
+color: white;
+opacity: 0.7;
+font-weight: 600;
+}
+
+#covid-message{
+text-align: center;
+margin: 20px 10%;
+}
+
+#hotel-name-diversion{
+color: grey;
+text-decoration: none;
+padding: 4% 0 15px 0;
+width: 100%;
+}
+
+#hotel-name-diversion a{
+padding-left: 20px;
+}
+
+#hotel-name-diversion a{
+color: white;
+opacity: 0.7;
+text-decoration: none;
+font-size: 12px;
+letter-spacing: 1px;
+}
+
+#second-block{
+background-color: #23232c;
+color: white;
+padding: 10%;
+text-align: center;
+}
+
+#second-headline{
+font-size: 40px;
+font-weight: 600;
+letter-spacing: 0.5px;
+padding-bottom: 4% ;
+}
+
+#blocks{
+display: flex;
+justify-content: space-around;
+}
+
+.separate-block{
+width: 21%;
+}
+
+.quality-logo{
+font-size: 40px;
+color: purple;
+margin-bottom: 10px;
+}
+
+#third-block{
+background-color: #6b3299;
+padding: 10%;
+display: flex;
+justify-content: space-between;
+color: white;
+}
+
+.separation{
+width: 50%;
+}
+
+#third-headline{
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 30px;
+padding-right: 20%;
+}
+
+#third-block-body{
+font-size: 24px;
+font-weight: 400;
+margin: 0 32px 30px 0;
+}
+
+.first-part{
+border-right: 2px solid grey;
+}
+
+#apps-description{
+display: flex;
+justify-content: space-around;
+margin-right: 20%;
+align-items: center;
+text-align: center;
+}
+
+.app-logo{
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+.stars{
+margin-bottom: 10px;
+}
+
+.app-caption{
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 400;
+}
+
+.app-title{
+margin-bottom: 10px;
+font-weight: 600;
+}
+.second-part{
+text-align: center;
+align-items: center;
+}
+.separation div img{
+width: 70%;
+margin-right: 10%;
+}
+
+#get-button{
+border: none;
+background-color: #2d1641;
+color: white;
+padding: 3% 25%;
+align-items: center;
+}
+
+#fourth-block{
+margin: 10%;
+text-align: center;
+align-items: center;
+background-color: linear-gradient(#dce5ec, #e1defd, #ffe7da) !important;;
+}
+
+#fourth-headline{
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 30px;
+text-shadow: 0 2px 4px rgba(0, 0, 0, .6) !important;
+}
+
+.quote-block{
+width: 26%;
+text-align: left;
+}
+
+.quote{
+margin-right: 10px;
+}
+
+#global-section{
+display: flex;
+justify-content: space-around;
+}
+
+.quote-paragraph{
+display: flex;
+}
+
+.Companies-logo{
+margin: 10px 0;
+font-size: 30px;
+}
+
+#companies-like-forbes{
+margin-top: 5% ;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+padding: 5% 0;
+}
+
+#companies-like-forbes i{
+padding: 0 20px;
+}
+
+#fifth-block{
+padding: 10%;
+align-items: center;
+background: #23232c !important;
+color: white;
+}
+
+#fifth-headline{
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 30px;
+text-shadow: 0 2px 4px rgba(0, 0, 0, .6) !important;
+}
+
+#fifth-subtitle{
+font-size: 25px;
+margin-bottom: 4%;
+}
+
+#places{
+display: flex;
+justify-content: space-around;
+}
+
+.cities{
+display: flex;
+width: 100%;
+}
+
+.sub-cities{
+width: 50%;
+}
+
+.sub-cities div{
+padding: 4%;
+}
+
+.sub-cities div a{
+justify-content: space-between;
+color: white;
+text-decoration: none;
+font-weight: 600;
+}
+
+.sub-cities div a:hover{
+text-decoration: underline;
+}
+
+#sixth-block{
+display: flex;
+}
+
+#sixth-first-part{
+padding:10% ;
+background-color:rgb(107, 50, 153);
+width: 50%;
+}
+
+.sixth-heading{
+font-size: 40px;
+color: white;
+font-weight: 600;
+margin-bottom: 30px;
+text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+margin-top: 10%;
+}
+
+#app-buttons{
+display: flex;
+}
+
+#app-buttons img{
+width: 40%;
+height: 20%;
+margin-right: 5%;
+}
+
+.sixth-second-part{
+width: 50%;
+padding: 8%;
+}
+
+.sixth-second-part ul{
+list-style: none;
+font-size: 20px;
+font-weight: 500;
+padding-left: 50px ;
+}
+
+.sixth-second-part ul li{
+margin-bottom: 5px;
+color: grey;
+opacity: 0.9;
+}
+
+.social-media-logo{
+color: grey;
+margin-top: 20px;
+
+padding-left: 50px ;
+}
+
+.social-media-logo i{
+margin-right: 10%;
+}
+
+#seventh-block{
+padding: 2% 2%;
+display: flex;
+justify-content: space-between;
+font-size: 10px;
+align-items: center;
+color: grey;
+}
+
+.seventh-first-block{
+display: flex;
+width: 50%;
+align-items: center;
+}
+
+.seventh-first-block div{
+margin-right: 20px;
+
+}
+
+.seventh-first-block span{
+font-size: 5px;
+margin-right: 3px;
+
+}
